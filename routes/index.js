@@ -4,7 +4,7 @@ const File = require("../models/File");
 const route=express.Router()
 // const bcrypt=require("bcrypt");
 
-
+require('dotenv').config()
 const bodyparser = require('body-parser')
 
 route.use(bodyparser.urlencoded({ extended: true}));

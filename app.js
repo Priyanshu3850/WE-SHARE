@@ -3,7 +3,7 @@ const app=express();
 const hbs=require("hbs");
 const multer=require("multer");
 // const bcrypt=require("bcrypt");
-
+require('dotenv').config()
 //database
 require("./db/conn");
 
